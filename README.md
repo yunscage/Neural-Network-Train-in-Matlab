@@ -13,7 +13,6 @@ The basic structure is as follows:
 
 My contact email: fanyuns@csu.edu.cn Or 15111046347@163.com
 
-
 这是一个自编的基础网络训练程序，基于Matlab 2023b。你可以添加自己的想法来改进它。
 
 基本结构如下：
