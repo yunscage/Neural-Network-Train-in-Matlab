@@ -11,8 +11,6 @@ The basic structure is as follows:
   If GPU is supported in your computer, keep the code unchanged.
 
 
-My contact email: fanyuns@csu.edu.cn Or 15111046347@163.com
-
 这是一个自编的基础网络训练程序，基于Matlab 2023b。你可以添加自己的想法来改进它。
 
 基本结构如下：
@@ -24,4 +22,4 @@ My contact email: fanyuns@csu.edu.cn Or 15111046347@163.com
     2.3 使用“adamupdate”函数更新梯度。
 3.GPU加速。 如果你的电脑支持GPU，则无需修改代码。
 
-联系邮箱：fanyuns@csu.edu.cn 或 15111046347@163.com
+联系邮箱(My email)：fanyuns@csu.edu.cn 或 15111046347@163.com
