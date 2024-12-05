@@ -27,9 +27,7 @@ MyOptions = trainingOptions('adam', ...
 Prenet=dlnetwork(Mylayers);
 XTrain = dlarray(ThisDataX, 'CB'); 
 YTrain = dlarray(ThisDataY, 'CB'); 
-Thisnet=trainCustomNetwork(Prenet,XTrain,YTrain,MyOptions);
-% 允许继续训练 Allow continue train
-% Thisnet=trainCustomNetwork(Thisnet,XTrain,YTrain,MyOptions);
+Thisnet=trainCustomNetwork(XTrain,YTrain,Mylayers,MyOptions);
 ypred=forward(Thisnet,XTrain);
 
 
