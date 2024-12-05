@@ -24,7 +24,6 @@ MyOptions = trainingOptions('adam', ...
 
 
 %% 使用自定义函数更新神经网络
-Prenet=dlnetwork(Mylayers);
 XTrain = dlarray(ThisDataX, 'CB'); 
 YTrain = dlarray(ThisDataY, 'CB'); 
 Thisnet=trainCustomNetwork(XTrain,YTrain,Mylayers,MyOptions);
